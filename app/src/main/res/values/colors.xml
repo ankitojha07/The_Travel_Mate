@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#18AFC3</color>
+    <color name="primaryVarient">#B8C1C0</color>
+    <color name="teal_200">#C7CFCE</color>
+    <color name="colorPrimarydark">#5C7878</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorAccent">#009688</color>
+    <color name="bottomNavColor">#1192A3</color>
+    <color name="completed">#0F9384</color>
+    <color name="mainColor">#3BC5D6</color>
+    <color name="tvColorEditProfile">#848A8C</color>
+    <color name="locationColor">#1192A3</color>
+    <color name="bgBottomNavigation">#FFFFFF</color>
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#649393</color>
+    <color name="followingBg">#2D3E3E</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="background">#FAF6F6</color>
+
+</resources>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">The Travel Mate</string>
+    <string name="todo">TODO</string>
+    <string name="enter_email">Enter email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">Log In</string>
+    <string name="don_t_have_an_account">New user?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register_here">Register Here</string>
+    <string name="join_community">Join our Community and make your journey better</string>
+    <string name="enter_your_full_name">Full name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="already_have_an_account">Have an account?</string>
+    <string name="remember_password">Remember password?</string>
+    <string name="send_again">Send again</string>
+    <string name="didn_t_get_email">Not received?</string>
+    <string name="send_link">Send Email</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="google_map_key">AIzaSyCL6ao7rfPNWoPIn6130eRNP3cpAzG0NSo</string>
+    <string name="find">Find</string>
+    <string name="near_by_places">Near by places</string>
+    <string name="current_location">Current Location</string>
+    <string name="desc">Login with your credentials and continue your journey with us!</string>
+    <string name="email">Email ID</string>
+    <string name="welcome_back">Welcome back to Travel Mate</string>
+    <string name="welcome_new_user">Welcome to travel mate! Fill your details and Sign Up to start your journey with Trvel Mate.</string>
+    <string name="twitterUsername">rishabh07</string>
+    <string name="phone_number">Phone number</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="e_mail">Email</string>
+    <string name="email_address">Email address</string>
+    <string name="ok">OK</string>
+    <string name="Save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="name2">Name :</string>
+    <string name="surname">Surname</string>
+    <string name="dies">Dies</string>
+    <string name="mail_address">Mail address</string>
+    <string name="log_out">Log Out</string>
+    <string name="phone">Phone</string>
+    <string name="phone2">Phone :</string>
+    <string name="bio">Bio</string>
+    <string name="bio2">Bio :</string>
+
+
+    <string name="goa">East meets West in this sun-soaked state, where Indian culture intertwines with Portuguese influences left over from a 500-year occupation.
+        The beaches have long served as a magnet for serene hedonists. To the north, the tourist-centric scene is prevalent, with an international flair that is now
+        skewing more hip than hippie. Travel south for stretches of unspoiled sand and an escape from large resorts. Temples, mosques and wildlife sanctuaries provide
+        diversions from the beach.</string>
+
+    <string name="agra">Agra is a city on the banks of the Yamuna river in the Agra district of the Indian state of Uttar Pradesh. It is 206 kilometres south of
+        the national capital New Delhi. Agra is the fourth-most populous city in Uttar Pradesh and 24th in India</string>
+
+    <string name="ladakh">Ladakh is a region administered by India as a union territory. The region constitutes a part of the larger Kashmir region, which has been
+        the subject of dispute between India, Pakistan, and China since 1947</string>
+
+    <string name="manali">Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a backpacking center and
+        honeymoon destination. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It is also a jumping-off point for
+        paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.</string>
+
+    <string name="udaipur">Udaipur, formerly the capital of the Mewar Kingdom, is a city in the western Indian state of Rajasthan.
+        Founded by Maharana Udai Singh II in 1559, it’s set around a series of artificial lakes and is known for its lavish royal residences. City Palace, overlooking
+        Lake Pichola, is a monumental complex of 11 palaces, courtyards and gardens, famed for its intricate peacock mosaics.</string>
+
+    <string name="rishikesh">Rishikesh is a city in India’s northern state of Uttarakhand, in the Himalayan foothills beside the Ganges River. The river is considered
+        holy, and the city is renowned as a center for studying yoga and meditation. Temples and ashrams (centers for spiritual studies) line the eastern bank around
+        Swarg Ashram, a traffic-free, alcohol-free and vegetarian enclave upstream from Rishikesh town. </string>
+
+    <string name="andaman">The Andaman Islands are an Indian archipelago in the Bay of Bengal. These roughly 300 islands are known for their palm-lined, white-sand
+        beaches, mangroves and tropical rainforests. Coral reefs supporting marine life such as sharks and rays make for popular diving and snorkeling sites.
+        Indigenous Andaman Islanders inhabit the more remote islands, many of which are off limits to visitors.</string>
+
+    <string name="delhi">New Delhi is the capital of India and an administrative district of NCT Delhi. New Delhi is also the seat of all three branches of the
+        government of India, hosting the Rashtrapati Bhavan, Parliament House, and the Supreme Court of India.</string>
+
+    <string name="mumbai">Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it is India`s largest city.
+        On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds
+        ancient cave temples dedicated to the Hindu god Shiva. The city also famous as the heart of the Bollywood film industry.</string>
+
+    <string name="rajasthan">Rajasthan is a state in northern India. The state covers an area of 342,239 square kilometres or 10.4 percent of the total geographical
+        area of India. It is the largest Indian state by area and the seventh largest by population.</string>
+
+
+    <string name="varanasi">Varanasi is a city in the northern Indian state of Uttar Pradesh dating to the 11th century B.C. Regarded as the spiritual
+        capital of India, the city draws Hindu pilgrims who bathe in the Ganges River’s sacred waters and perform funeral rites. Along the city`s winding streets
+        are some 2,000 temples, including Kashi Vishwanath, the “Golden Temple,” dedicated to the Hindu god Shiva.</string>
+
+    <string name="kerala">Kerala, a state on India`s tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It`s known for its palm-lined beaches and
+        backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife.
+        National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries, are home to elephants, langur monkeys and tigers.</string>
+
+    <string name="darjiling">Darjeeling is a town in India`s West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite,
+        it remains the terminus of the narrow-gauge Darjeeling Himalayan Railway, or “Toy Train,” completed in 1881. It`s famed for the distinctive black tea grown
+        on plantations that dot its surrounding slopes. Its backdrop is Mt. Kanchenjunga, among the world’s highest peaks. </string>
+
+    <string name="kolkata">Kolkata (formerly Calcutta) is the capital of India`s West Bengal state. Founded as an East India Company trading post,
+        it was India`s capital under the British Raj from 1773–1911. Today it’s known for its grand colonial architecture, art galleries and cultural festivals.
+        It`s also home to Mother House, headquarters of the Missionaries of Charity, founded by Mother Teresa, whose tomb is on site.</string>
+
+    <string name="mysore">Mysore (or Mysuru), a city in India`s southwestern Karnataka state, was the capital of the Kingdom of Mysore from 1399 to 1947. In its
+        center is opulent Mysore Palace, seat of the former ruling Wodeyar dynasty. The palace blends Hindu, Islamic, Gothic and Rajput styles. Mysore is also home
+        to the centuries-old Devaraja Market, filled with spices, silk and sandalwood.</string>
+    <string name="amritsar">Amritsar is a city in the northwestern Indian state of Punjab, 28 kilometers from the border with Pakistan. At the center of its walled old town, the gilded Golden Temple (Harmandir Sahib) is the holiest gurdwara (religious complex) of the Sikh religion. It’s at the end of a causeway, surrounded by the sacred Amrit Sarovar tank (lake), where pilgrims bathe.</string>
+
+
+</resources>

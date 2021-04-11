@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687013899589",
+    "project_id": "the-travel-mate",
+    "storage_bucket": "the-travel-mate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687013899589:android:2b4869b13f04d994e4222c",
+        "android_client_info": {
+          "package_name": "com.knaas.thetravelmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687013899589-is6i6i2315s8otkm2gu3l1ava98e9u97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcq-lKkhrOR8T5lS00r8s7hMfffqfFvZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687013899589-is6i6i2315s8otkm2gu3l1ava98e9u97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
