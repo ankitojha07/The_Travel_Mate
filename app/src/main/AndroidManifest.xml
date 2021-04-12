@@ -7,9 +7,9 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <application
         android:icon="@mipmap/ic_launcher"
@@ -17,12 +17,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TheTravelMate">
+        <activity android:name=".DisplayUsers"></activity>
         <activity android:name=".Activity.Dashboard" />
         <activity android:name=".PlaceDetails.Kerala" />
         <activity android:name=".PlaceDetails.Mysore" />
         <activity android:name=".PlaceDetails.Kolkata" />
         <activity android:name=".PlaceDetails.Darjeeling" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Activity.MainActivity" />
         <activity android:name=".PlaceDetails.Amritsar" />
         <activity android:name=".PlaceDetails.Varanasi" />
         <activity android:name=".PlaceDetails.Rajasthan" />
