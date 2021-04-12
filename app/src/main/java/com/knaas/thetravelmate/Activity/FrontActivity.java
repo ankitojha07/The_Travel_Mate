@@ -109,7 +109,7 @@ public class FrontActivity extends AppCompatActivity {
                         break;
 
                     case R.id.chat:
-                        startActivity(new Intent(FrontActivity.this, ChatActivity.class));
+                        startActivity(new Intent(FrontActivity.this, MainActivity.class));
                         break;
 
                     case R.id.profile:

@@ -18,4 +18,14 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>
+    <style name="Dilouge">
+        <item name="android:windowBackground">@drawable/empty_bac</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowMinWidthMajor">80%</item>
+        <item name="android:windowActionBar">false</item>
+
+
+
+
+    </style>
 </resources>

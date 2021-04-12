@@ -1,52 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     tools:context=".Activity.ChatActivity">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
         android:gravity="center"
-        android:text="Chat Activity"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/ll1"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tvnameDisplay"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="32dp"
-        android:padding="10dp"
-        android:text="Name"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile"
+            app:civ_border_width="2dp"
+            tools:ignore="MissingConstraints"
+            app:civ_border_color="@color/primary"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="49dp" />
+        <TextView
+            android:id="@+id/recievername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:gravity="center"/>
 
-    <Button
-        android:id="@+id/btnLogOut"
-        android:layout_width="0dp"
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_above="@id/ll3"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="32dp"
-        android:text="Log Out"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvnameDisplay" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_below="@id/ll1"
+        android:id="@+id/messageAdapter"/>
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="#ccbfe9"
+            app:cardCornerRadius="500dp"
+            android:layout_height="50dp">
+
+
+            <EditText
+                android:id="@+id/editMessage"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:layout_height="wrap_content"
+                android:textColorHint="#9F9797"
+                android:paddingLeft="10dp"
+                android:hint="Type Your Message.."/>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/send_btn"
+            android:layout_weight="1"
+            android:layout_width="110dp"
+            app:cardBackgroundColor="#A997D1"
+            app:cardCornerRadius="500dp"
+            android:layout_height="45dp">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/send_btn"
+                android:layout_gravity="center">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>
