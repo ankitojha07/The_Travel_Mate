@@ -3,6 +3,7 @@ package com.knaas.thetravelmate.Activity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -80,7 +81,11 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public void navigate_sign_in(View v){
-        Intent inent = new Intent(this, RegisterActivity.class);
+        Intent inent = new Intent(this, LoginActivity.class);
         startActivity(inent);
+    }
+    public void KnowMore(View v) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://kunalpathak22.github.io/TravelMate/"));
+        startActivity(intent);
     }
 }

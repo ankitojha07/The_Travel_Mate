@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -21,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText SignInMail, SignInPass;
     private FirebaseAuth auth;
-    private Button SignInButton;
+    private Button SignInButton,knowMore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +31,10 @@ public class LoginActivity extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         // set the view now
         setContentView(R.layout.activity_login);
-        SignInMail = (EditText) findViewById(R.id.SignInMail);
-        SignInPass = (EditText) findViewById(R.id.SignInPass);
-        SignInButton = (Button) findViewById(R.id.SignInButton);
+        SignInMail = findViewById(R.id.SignInMail);
+        SignInPass = findViewById(R.id.SignInPass);
+        SignInButton = findViewById(R.id.SignInButton);
+        knowMore = findViewById(R.id.knowMore);
         //Get Firebase auth instance
         auth = FirebaseAuth.getInstance();
 
@@ -79,5 +81,10 @@ public class LoginActivity extends AppCompatActivity {
     public void NavigateForgetMyPassword(View v) {
         Intent inent = new Intent(this, ForgetPassword.class);
         startActivity(inent);
+    }
+
+    public void KnowMore(View v) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://kunalpathak22.github.io/TravelMate/"));
+        startActivity(intent);
     }
 }

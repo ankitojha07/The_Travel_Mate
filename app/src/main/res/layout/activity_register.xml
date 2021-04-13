@@ -73,6 +73,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/cornered_button"
                     android:backgroundTint="@android:color/white"
+                    android:onClick="KnowMore"
                     android:text="Know more" />
                 <Button
                     android:id="@+id/haveAnAcc"

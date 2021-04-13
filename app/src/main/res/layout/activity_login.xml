@@ -80,6 +80,7 @@
                                     android:id="@+id/knowMore"
                                     android:background="@drawable/cornered_button"
                                     android:backgroundTint="@android:color/white"
+                                    android:onClick="KnowMore"
                                     android:text="Know more" />
 
                                 <Button
